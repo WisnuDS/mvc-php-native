@@ -6,11 +6,11 @@ class UserModel extends Model
 
     protected function table()
     {
-        return "user";
+        return "users";
     }
 
     protected function columns()
     {
-        return array("nama","usia","asal");
+        return array("username","password","token","role_id","email","address","subdistrict","zip","telephone","avatar","full_name");
     }
 }

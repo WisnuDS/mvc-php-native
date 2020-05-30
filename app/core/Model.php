@@ -17,9 +17,21 @@ abstract class Model
         return $this->connection->resultSet();
     }
 
-    public function findData($id){
+    public function getSomeData($params){
+        $query = "SELECT * FROM ".$this->table()." ".$params;
+        $this->connection->query($query);
+        return $this->connection->resultSet();
+    }
+
+    public function findDataById($id){
         $this->connection->query("SELECT * FROM ".$this->table()." WHERE id = :id");
         $this->connection->bind("id",$id);
+        return $this->connection->singleSet();
+    }
+
+    public function findData($key, $value){
+        $this->connection->query("SELECT * FROM ".$this->table()." WHERE $key = :value");
+        $this->connection->bind("value",$value);
         return $this->connection->singleSet();
     }
 
@@ -57,18 +69,18 @@ abstract class Model
         return $this->connection->rowCount();
     }
 
-    public function update($data){
+    public function update($data,$id){
         $query = "UPDATE ".$this->table()." SET ";
-        foreach ($this->columns() as $column){
+        foreach ($data as $column => $value){
             $query .= $column."=:".$column.",";
         }
         $fixQuery = substr($query,0,-1);
         $fixQuery .= " WHERE id = :id";
         $this->connection->query($fixQuery);
-        foreach ($this->columns() as $column){
-            $this->connection->bind($column, $data[$column]);
+        foreach ($data as $column => $value){
+            $this->connection->bind($column, $value);
         }
-        $this->connection->bind('id',$data['id']);
+        $this->connection->bind('id',$id);
         $this->connection->execute();
         return $this->connection->rowCount();
     }

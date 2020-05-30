@@ -2,8 +2,323 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855f3c45-ead1-40f3-9c88-4cb53a81bfa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/controllers/Authentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/core/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/models/ItemModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/models/ItemSelectedModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/core/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/core/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/history.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/landing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/product-single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/404style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/css/mixins/_text-hide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/jquery.timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/css/_ionicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/open-iconic/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/open-iconic/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/open-iconic/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/open-iconic/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/bg-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/bg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/category-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/category-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/category-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/category-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/category.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/image_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/partner-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/partner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/partner-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/partner-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/partner-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/mainlogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/scrollax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/js/vuefile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/uploads/gb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/uploads/photo-2qbOAJ9itYFZMn17VSRCWpoEBaGIsTeh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/uploads/photo-dD0QMJF3ERXhup5L.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/animsition/css/animsition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/animsition/css/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/animsition/js/animsition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/animsition/js/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PasarTradisional/public/vendor/select2/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/.idea/phpmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/.idea/PasarTradisional.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/core/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/models/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/views/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/app/views/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/views/home/blog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/app/views/home/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PasarTradisional/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PasarTradisional/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +341,60 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBpasartradisional@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBpasartradisional@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBpasartradisional@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DBpasartradisional: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBpasartradisional@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DBpasartradisional: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="item_selected: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBpasartradisional@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DBpasartradisional: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PasarTradisional" />
   </component>
   <component name="ProjectId" id="1aDDoRjCynrin2K9HStauWNJMBc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -51,6 +406,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../PasarTradisional/public/img" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,18 +427,29 @@
       <workItem from="1586261447148" duration="666000" />
       <workItem from="1586531201811" duration="618000" />
       <workItem from="1586828122513" duration="78000" />
-      <workItem from="1590076741442" duration="28962000" />
+      <workItem from="1590076741442" duration="35502000" />
+      <workItem from="1590484468382" duration="81452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590140670928">
+    <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590775561497">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1590140670928" />
+    <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1590775561497" />
+    <state x="525" y="27" width="671" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590813812054">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="525" y="27" width="671" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1590813812054" />
     <state x="416" y="146" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590079484281">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -86,21 +458,37 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="482" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1586531219063" />
-    <state x="469" y="211" width="433" height="371" key="NewPhpClassDialog" timestamp="1590154200949">
+    <state x="469" y="211" width="543" height="371" key="NewPhpClassDialog" timestamp="1590860500035">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="469" y="211" width="433" height="371" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1590154200949" />
-    <state x="478" y="323" width="399" height="147" key="NewPhpFileDialog" timestamp="1590166046150">
+    <state x="469" y="211" width="543" height="371" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1590860500035" />
+    <state x="478" y="323" width="389" height="147" key="NewPhpFileDialog" timestamp="1590775734223">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="147" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1590166046150" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1586828122642">
+    <state x="478" y="323" width="389" height="147" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1590775734223" />
+    <state x="172" y="32" key="SettingsEditor" timestamp="1590854283723">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1586828122642" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590168143498">
+    <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1590854283723" />
+    <state x="395" y="37" width="566" height="718" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1590775847222">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1590168143498" />
+    <state x="395" y="37" width="566" height="718" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1366.741@0.27.1366.741" timestamp="1590775847222" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1590484482336">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1590484482336" />
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup" timestamp="1590757499334">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1590757499334" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590862261544">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1590862261544" />
+    <state x="408" y="311" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590808935104">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="408" y="311" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1590808935104" />
   </component>
 </project>

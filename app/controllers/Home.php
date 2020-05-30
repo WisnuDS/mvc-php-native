@@ -3,58 +3,36 @@
 class Home extends Controller
 {
     public function index(){
-        $data['title'] = "Home";
-        $data['user'] = $this->model('UserModel')->getAllData();
-        $this->view("home/index",$data);
+        Auth::tokenValidation();
+        $user = $this->model('UserModel')->findData("token",$_SESSION['auth']);
+        $data=[
+            "user" => $user,
+            "title" => "Home",
+            "vue" => "home"
+        ];
+        $this->view("core/header",$data);
+        $this->view("landing",$data);
+        $this->view("core/footer");
     }
 
-    public function find($key,$value){
-        $data['title'] = "Home";
-        $data['user'] = $this->model('UserModel')->searchData($key,$value);
-        $this->view("home/index",$data);
-    }
-
-    public function add($name,$age,$origin){
-        $data['nama'] = $name;
-        $data['usia'] = $age;
-        $data['asal'] = $origin;
-        if ($this->model('UserModel')->insert($data) > 0){
-            FlashMessage::setFlasher("Data Berhasil Ditambah","Sukses","success");
-            header("Location:".BASE_URL);
-            exit();
-        }else{
-            FlashMessage::setFlasher("Data Gagal Ditambah","Gagal","danger");
-            header("Location:".BASE_URL);
-            exit();
-        }
-    }
-
-    public function delete($id)
+    public function itemsData()
     {
-        if ($this->model('UserModel')->delete($id) > 0){
-            FlashMessage::setFlasher("Data Berhasil Dihapus","Sukses","success");
-            header("Location:".BASE_URL);
-            exit();
-        }else{
-            FlashMessage::setFlasher("Data Gagal Dihapus","Gagal","danger");
-            header("Location:".BASE_URL);
-            exit();
-        }
+        $data = $this->model('ItemModel')->getAllData();
+        echo json_encode($data);
     }
 
-    public function update($id,$name,$age,$origin){
-        $data['nama'] = $name;
-        $data['usia'] = $age;
-        $data['asal'] = $origin;
-        $data['id'] = $id;
-        if ($this->model('UserModel')->update($data) > 0){
-            FlashMessage::setFlasher("Data Berhasil Ditambah","Sukses","success");
-            header("Location:".BASE_URL);
-            exit();
+    public function addToCart($item,$user)
+    {
+        $data["transactions_id"] = null;
+        $data["item_id"]=$item;
+        $data["user_id"]=$user;
+        $data["quantity"] = 1;
+        $data["status"] = "cart";
+        $data["item_note"]="";
+        if ($this->model('ItemSelectedModel')->insert($data)>0){
+            echo json_encode(["response" => true]);
         }else{
-            FlashMessage::setFlasher("Data Gagal Ditambah","Gagal","danger");
-            header("Location:".BASE_URL);
-            exit();
+            echo json_encode(["response" => false]);
         }
     }
 }
