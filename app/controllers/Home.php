@@ -8,7 +8,7 @@ class Home extends Controller
         $data=[
             "user" => $user,
             "title" => "Home",
-            "vue" => "home"
+            "vue" => "home",
         ];
         $this->view("core/header",$data);
         $this->view("landing",$data);
@@ -34,5 +34,20 @@ class Home extends Controller
         }else{
             echo json_encode(["response" => false]);
         }
+    }
+
+    public function allCart($id)
+    {
+        $data = $this->model('ItemSelectedModel')->getSomeData($id);
+        $response = [
+            "response" => count($data)
+        ];
+        echo json_encode($response);
+    }
+
+    public function getUser()
+    {
+        $user = $this->model('UserModel')->findData("token",$_SESSION['auth']);
+        echo json_encode(["response" => $user["id"]]);
     }
 }

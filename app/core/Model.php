@@ -12,6 +12,12 @@ abstract class Model
         $this->connection = new Database();
     }
 
+    public function manualQuery($query)
+    {
+        $this->connection->query($query);
+        return $this->connection->resultSet();
+    }
+
     public function getAllData(){
         $this->connection->query("SELECT * FROM ".$this->table());
         return $this->connection->resultSet();
@@ -39,6 +45,13 @@ abstract class Model
         $this->connection->query("SELECT * FROM ".$this->table()." WHERE $key LIKE :value");
         $this->connection->bind("value","%".$value."%");
         return $this->connection->resultSet();
+    }
+
+    public function getLastInsertId($data)
+    {
+        $response['row'] = $this->insert($data);
+        $response['id'] = $this->connection->lastInsertId();
+        return $response;
     }
 
     public function insert($data){

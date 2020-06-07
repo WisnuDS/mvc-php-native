@@ -161,35 +161,8 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="<?=BASE_URL?>js/vuefile.js"></script>
 <script src="<?=BASE_URL?>js/main.js"></script>
+<script src="<?=BASE_URL?>js/modal.js"></script>
 
-
-
-<script>
-    function thisClickedLog() {
-        document.getElementById('popLog').style.display='block';
-    }
-    function thisClickedLogC() {
-        document.getElementById('popLog').style.display='none';
-    }
-    var openCloseLog = document.getElementsByClassName('thisClose');
-    window.onclick = function(event) {
-        if (event.target === openCloseLog) {
-            openCloseLog.style.display = "none";
-        }
-    }
-    function thisClickedReg() {
-        document.getElementById('popReg').style.display='block';
-    }
-    function thisClickedRegC() {
-        document.getElementById('popReg').style.display='none';
-    }
-    var openCloseReg = document.getElementById('popReg');
-    window.onclick = function(event) {
-        if (event.target === openCloseReg) {
-            openCloseReg.style.display = "none";
-        }
-    }
-</script>
 
 
 <script>

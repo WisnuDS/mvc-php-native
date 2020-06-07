@@ -17,4 +17,9 @@ class Controller
     public function notFound(){
         $this->view('404');
     }
+
+    public function getSession()
+    {
+        echo json_encode(["response" =>$_SESSION['auth']]);
+    }
 }

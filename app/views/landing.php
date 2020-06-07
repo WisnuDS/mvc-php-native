@@ -138,7 +138,7 @@
                                 <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                     <span><i class="ion-ios-menu"></i></span>
                                 </a>
-                                <a href="#" @click="insertCart(item['id'],<?=$data["user"]["id"]?>)" class="buy-now d-flex justify-content-center align-items-center mx-1">
+                                <a href="#" onclick="return false" @click="insertCart(item['id'],<?=$data["user"]["id"]?>)" class="buy-now d-flex justify-content-center align-items-center mx-1">
                                     <span><i class="ion-ios-cart"></i></span>
                                 </a>
                             </div>

@@ -34,6 +34,23 @@ class Auth
         }
     }
 
+    public static function tokenValidationAdmin()
+    {
+        $user = new UserModel();
+        if (isset($_SESSION['auth'])){
+            $token = $user->findData("token",$_SESSION['auth'])['token'];
+            if (hash_equals($_SESSION['auth'], $token)) {
+                return true;
+            } else {
+                header("Location:".BASE_URL."__Admin/login");
+                exit();
+            }
+        }else{
+            header("Location:".BASE_URL."__Admin/login");
+            exit();
+        }
+    }
+
     public static function loginTokenValidation()
     {
         $user = new UserModel();
@@ -41,6 +58,17 @@ class Auth
             $token = $user->findData("token",$_SESSION['auth'])['token'];
             if (hash_equals($_SESSION['auth'], $token)) {
                 header("Location:".BASE_URL);
+                exit();}
+        }
+    }
+
+    public static function loginTokenValidationAdmin()
+    {
+        $user = new UserModel();
+        if (isset($_SESSION['auth'])){
+            $token = $user->findData("token",$_SESSION['auth'])['token'];
+            if (hash_equals($_SESSION['auth'], $token)) {
+                header("Location:".BASE_URL."__Admin");
                 exit();}
         }
     }

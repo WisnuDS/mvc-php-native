@@ -340,6 +340,5 @@
 
 setInterval(function() { makeTimer(); }, 1000);
 
-
 })(jQuery);
 
